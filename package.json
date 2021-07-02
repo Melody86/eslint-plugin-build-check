@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-build-check",
+  "version": "0.0.0",
+  "description": "eslint rules for pre-build check. Including hardcoded domain, chinese name images...",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Melody",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "eslint": "^7.29.0",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
